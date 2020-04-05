@@ -1,16 +1,16 @@
 {
     "name": "kittenbit",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "Kitten:Bit - program that is compatible over serial like the KittenBot Rosbot baseboard",
     "license": "Apache",
     "dependencies": {
         "core": "*",
+        "commandprocessor": "github:gbraad/pxt-command-processor#v0.1.0",
         "robotbit": "github:kittenbot/pxt-robotbit#v0.3.3"
     },
     "files": [
         "README.md",
         "constants.ts",
-        "commands.ts",
         "main.ts"
     ],
     "testFiles": [

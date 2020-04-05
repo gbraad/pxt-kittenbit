@@ -140,7 +140,9 @@ namespace kittenbit {
                 break;
 
             case 6: // tone : M6 pin freq duration
-                pins.analogSetPitchPin(AnalogPin.P15)
+                // TODO: pin is ignored (although 'all' should be possible)
+                // needs mapping
+                pins.analogSetPitchPin(AnalogPin.P0)
                 pins.analogPitch(
                     parseInt(cmdArgs[2]),
                     parseInt(cmdArgs[3]))

@@ -1,6 +1,6 @@
 {
     "name": "kittenbit",
-    "version": "0.1.6",
+    "version": "0.1.7",
     "description": "Kitten:Bit - program that is compatible over serial like the KittenBot Rosbot baseboard",
     "license": "Apache",
     "dependencies": {
